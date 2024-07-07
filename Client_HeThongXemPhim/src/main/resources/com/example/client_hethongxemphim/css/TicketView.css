@@ -1,0 +1,23 @@
+/* styles.css */
+
+.ticket-box {
+    -fx-background-color: #f0f0f0; /* Màu nền */
+    -fx-padding: 10px; /* Khoảng cách đệm bên trong */
+    -fx-border-width: 1px; /* Độ rộng đường viền */
+    -fx-border-color: #ccc; /* Màu đường viền */
+    -fx-border-radius: 5px; /* Bo góc đường viền */
+}
+
+.ticket-box .info-label {
+    -fx-font-size: 14px; /* Cỡ chữ */
+    -fx-padding: 5px 0; /* Khoảng cách đệm top và bottom */
+}
+
+.ticket-box .movie-name-label {
+    -fx-font-weight: bold; /* Đậm */
+}
+
+.ticket-box .price-label {
+    -fx-font-weight: bold; /* Đậm */
+    -fx-text-fill: #0076a3; /* Màu chữ */
+}

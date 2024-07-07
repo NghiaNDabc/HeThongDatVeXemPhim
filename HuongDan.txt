@@ -1,0 +1,5 @@
+hướng dẫn chạy
+Yêu cầu: JDK21
+B1: mở xampp, chạy file cinema.sql  ySQL)
+B2: Mở 2 project, trong đó project server là: HeThongDatVeXemPhim, project client là: Client_HeThongXemPhim
+B3: Chạy server, chạy client (Xampp cổng 3306)

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="com.example.client_hethongxemphim.controllers.SeatSelectionController">
+    <children>
+        <GridPane fx:id="seatGrid" hgap="10" vgap="10">
+            <!-- Seats will be dynamically added here -->
+        </GridPane>
+        <HBox alignment="CENTER" spacing="10">
+            <Button text="Xác nhận" onAction="#confirmSelection"/>
+        </HBox>
+    </children>
+</VBox>

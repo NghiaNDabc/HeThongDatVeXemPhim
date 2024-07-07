@@ -1,0 +1,32 @@
+
+--Định dạng time của Duration k biết nhập sao
+--Censorship: 1 - P; 2 - K; 3 - T13; 4 - T16; 5 - T18
+--Visions: 1 - 2D; 2 - 3D; 3 - 5D 
+
+insert into Movie values('MV001', 'GE001', 'Inside Out 2', '6-14-2024', 'USA', '96 minutes', 'Kelsey Mann', 'English', 1, 1, 90000, 'hay', 'a1.png');
+insert into Movie values('MV002', 'GE007', 'Guardians of the Galaxy Vol. 4', '7-21-2024', 'USA', '180 minutes', 'Christopher Nolan', 'English', 3, 1, 90000, 'hay', 'a2.png');
+insert into Movie values('MV003', 'GE007', 'Dune: Part Two', '5-24-2024', 'USA', '160 minutes', 'Denis Villeneuve', 'English', 3, 1, 120000, 'hay', 'a3.png');
+insert into Movie values('MV004', 'GE001', 'Spider-Man: Beyond the Spider-Verse', '3-29-2024', 'USA', '240 minutes', 'Joaquim Dos Santos, Kemp Powers, Justin K. Thompson', 'English', 2, 1, 80000, 'hay', 'a4.png');
+insert into Movie values('MV005', 'GE005', 'Fast & Furious 10', '6-21-2024', 'USA', '125 minutes', 'Justin Lin', 'English', 3, 1, 70000, 'hay', 'a5.png');
+insert into Movie values('MV006', 'GE005', 'Mission: Impossible – Dead Reckoning Part Two', '7-5-2024', 'USA', '145 minutes', 'Christopher McQuarrie', 'English', 3, 1, 70000, 'hay', 'a6.png'); 
+insert into Movie values('MV007', 'GE005', 'John Wick: Chapter 5', '9-6-2024', 'USA', '130 minutes', 'Chad Stahelski', 'English', 4, 1, 90000, 'hay', 'a7.png');
+insert into Movie values('MV008', 'GE001', 'Doraemon the movie: Earth symphony', '5-24-2024', 'Japan', '115 minutes', 1, 1, 90000, 'hay', 'a8.png');
+insert into Movie values('MV009', 'GE005', 'Bad boys: Ride or Die', '6-7-2024', 'USA', '115 minutes', 5, 1, 700000, 'hay', 'a9.png');
+insert into Movie values('MV010', 'GE004', 'Sting', '6-21-2024', 'USA', '92 minutes', 5, 1, 135000, 'hay', 'a10.png');
+
+
+--Genre
+insert into Genre values("GE001", "Animation");
+insert into Genre values("GE002", "Comedy");
+insert into Genre values("GE003", "Romance");
+insert into Genre values("GE004", "Horror");
+insert into Genre values("GE005", "Action");
+insert into Genre values("GE005", "Comedy");
+insert into Genre values("GE006", "Documentary");
+insert into Genre values("GE007", "Sci-Fi");
+insert into Genre values("GE008", "Drama");
+insert into Genre values("GE009", "Adventure");
+
+
+
+
